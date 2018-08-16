@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21155C0A211E892800EBF4FC /* RJI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21155C08211E892800EBF4FC /* RJI.swift */; };
+		21155C0B211E892800EBF4FC /* RJI_RSS_Sample.xml in Resources */ = {isa = PBXBuildFile; fileRef = 21155C09211E892800EBF4FC /* RJI_RSS_Sample.xml */; };
 		218436DB211E31E000AE2F35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218436DA211E31E000AE2F35 /* AppDelegate.swift */; };
 		218436DD211E31E100AE2F35 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218436DC211E31E100AE2F35 /* ViewController.swift */; };
 		218436E0211E31E100AE2F35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 218436DE211E31E100AE2F35 /* Main.storyboard */; };
@@ -14,6 +16,22 @@
 		218436E5211E31E200AE2F35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 218436E3211E31E200AE2F35 /* LaunchScreen.storyboard */; };
 		218436F0211E31E200AE2F35 /* XMLParsingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218436EF211E31E200AE2F35 /* XMLParsingTests.swift */; };
 		218436FB211E31E200AE2F35 /* XMLParsingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218436FA211E31E200AE2F35 /* XMLParsingUITests.swift */; };
+		21843716211E3D3700AE2F35 /* XMLStackParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21843708211E3D3600AE2F35 /* XMLStackParser.swift */; };
+		21843717211E3D3700AE2F35 /* DecodingErrorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2184370A211E3D3600AE2F35 /* DecodingErrorExtension.swift */; };
+		21843718211E3D3700AE2F35 /* XMLUnkeyedDecodingContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2184370B211E3D3600AE2F35 /* XMLUnkeyedDecodingContainer.swift */; };
+		21843719211E3D3700AE2F35 /* XMLKeyedDecodingContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2184370C211E3D3600AE2F35 /* XMLKeyedDecodingContainer.swift */; };
+		2184371A211E3D3700AE2F35 /* XMLDecodingStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2184370D211E3D3600AE2F35 /* XMLDecodingStorage.swift */; };
+		2184371B211E3D3700AE2F35 /* XMLDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2184370E211E3D3600AE2F35 /* XMLDecoder.swift */; };
+		2184371C211E3D3700AE2F35 /* XMLReferencingEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21843710211E3D3600AE2F35 /* XMLReferencingEncoder.swift */; };
+		2184371D211E3D3700AE2F35 /* EncodingErrorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21843711211E3D3600AE2F35 /* EncodingErrorExtension.swift */; };
+		2184371E211E3D3700AE2F35 /* XMLEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21843712211E3D3600AE2F35 /* XMLEncoder.swift */; };
+		2184371F211E3D3700AE2F35 /* XMLEncodingStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21843713211E3D3600AE2F35 /* XMLEncodingStorage.swift */; };
+		21843720211E3D3700AE2F35 /* ISO8601DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21843714211E3D3600AE2F35 /* ISO8601DateFormatter.swift */; };
+		21843721211E3D3700AE2F35 /* XMLKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21843715211E3D3700AE2F35 /* XMLKey.swift */; };
+		2184373B211E3E3100AE2F35 /* book.xml in Resources */ = {isa = PBXBuildFile; fileRef = 2184372A211E3E3100AE2F35 /* book.xml */; };
+		2184373C211E3E3100AE2F35 /* books.xml in Resources */ = {isa = PBXBuildFile; fileRef = 2184372B211E3E3100AE2F35 /* books.xml */; };
+		2184373D211E3E3100AE2F35 /* Books.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2184372C211E3E3100AE2F35 /* Books.swift */; };
+		21843746211E411200AE2F35 /* CheckUserStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21843745211E411200AE2F35 /* CheckUserStatus.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +52,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		21155C08211E892800EBF4FC /* RJI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RJI.swift; sourceTree = "<group>"; };
+		21155C09211E892800EBF4FC /* RJI_RSS_Sample.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = RJI_RSS_Sample.xml; sourceTree = "<group>"; };
 		218436D7211E31E000AE2F35 /* XMLParsing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XMLParsing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		218436DA211E31E000AE2F35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		218436DC211E31E100AE2F35 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +67,22 @@
 		218436F6211E31E200AE2F35 /* XMLParsingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XMLParsingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		218436FA211E31E200AE2F35 /* XMLParsingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLParsingUITests.swift; sourceTree = "<group>"; };
 		218436FC211E31E200AE2F35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21843708211E3D3600AE2F35 /* XMLStackParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMLStackParser.swift; sourceTree = "<group>"; };
+		2184370A211E3D3600AE2F35 /* DecodingErrorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecodingErrorExtension.swift; sourceTree = "<group>"; };
+		2184370B211E3D3600AE2F35 /* XMLUnkeyedDecodingContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMLUnkeyedDecodingContainer.swift; sourceTree = "<group>"; };
+		2184370C211E3D3600AE2F35 /* XMLKeyedDecodingContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMLKeyedDecodingContainer.swift; sourceTree = "<group>"; };
+		2184370D211E3D3600AE2F35 /* XMLDecodingStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMLDecodingStorage.swift; sourceTree = "<group>"; };
+		2184370E211E3D3600AE2F35 /* XMLDecoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMLDecoder.swift; sourceTree = "<group>"; };
+		21843710211E3D3600AE2F35 /* XMLReferencingEncoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMLReferencingEncoder.swift; sourceTree = "<group>"; };
+		21843711211E3D3600AE2F35 /* EncodingErrorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EncodingErrorExtension.swift; sourceTree = "<group>"; };
+		21843712211E3D3600AE2F35 /* XMLEncoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMLEncoder.swift; sourceTree = "<group>"; };
+		21843713211E3D3600AE2F35 /* XMLEncodingStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMLEncodingStorage.swift; sourceTree = "<group>"; };
+		21843714211E3D3600AE2F35 /* ISO8601DateFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISO8601DateFormatter.swift; sourceTree = "<group>"; };
+		21843715211E3D3700AE2F35 /* XMLKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMLKey.swift; sourceTree = "<group>"; };
+		2184372A211E3E3100AE2F35 /* book.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = book.xml; sourceTree = "<group>"; };
+		2184372B211E3E3100AE2F35 /* books.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = books.xml; sourceTree = "<group>"; };
+		2184372C211E3E3100AE2F35 /* Books.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Books.swift; sourceTree = "<group>"; };
+		21843745211E411200AE2F35 /* CheckUserStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckUserStatus.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +110,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		21155C06211E803700EBF4FC /* CodableXML */ = {
+			isa = PBXGroup;
+			children = (
+				21843709211E3D3600AE2F35 /* Decoder */,
+				2184370F211E3D3600AE2F35 /* Encoder */,
+				21843714211E3D3600AE2F35 /* ISO8601DateFormatter.swift */,
+				21843715211E3D3700AE2F35 /* XMLKey.swift */,
+				21843708211E3D3600AE2F35 /* XMLStackParser.swift */,
+			);
+			path = CodableXML;
+			sourceTree = "<group>";
+		};
+		21155C07211E892800EBF4FC /* RJI */ = {
+			isa = PBXGroup;
+			children = (
+				21155C08211E892800EBF4FC /* RJI.swift */,
+				21155C09211E892800EBF4FC /* RJI_RSS_Sample.xml */,
+			);
+			name = RJI;
+			path = "../../../../../../Downloads/XMLParsing-master/Sample XML/RJI";
+			sourceTree = "<group>";
+		};
 		218436CE211E31E000AE2F35 = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +156,8 @@
 			isa = PBXGroup;
 			children = (
 				218436DA211E31E000AE2F35 /* AppDelegate.swift */,
+				21843722211E3E3100AE2F35 /* Sample XML */,
+				21155C06211E803700EBF4FC /* CodableXML */,
 				218436DC211E31E100AE2F35 /* ViewController.swift */,
 				218436DE211E31E100AE2F35 /* Main.storyboard */,
 				218436E1211E31E200AE2F35 /* Assets.xcassets */,
@@ -123,6 +183,49 @@
 				218436FC211E31E200AE2F35 /* Info.plist */,
 			);
 			path = XMLParsingUITests;
+			sourceTree = "<group>";
+		};
+		21843709211E3D3600AE2F35 /* Decoder */ = {
+			isa = PBXGroup;
+			children = (
+				2184370A211E3D3600AE2F35 /* DecodingErrorExtension.swift */,
+				2184370B211E3D3600AE2F35 /* XMLUnkeyedDecodingContainer.swift */,
+				2184370C211E3D3600AE2F35 /* XMLKeyedDecodingContainer.swift */,
+				2184370D211E3D3600AE2F35 /* XMLDecodingStorage.swift */,
+				2184370E211E3D3600AE2F35 /* XMLDecoder.swift */,
+			);
+			path = Decoder;
+			sourceTree = "<group>";
+		};
+		2184370F211E3D3600AE2F35 /* Encoder */ = {
+			isa = PBXGroup;
+			children = (
+				21843710211E3D3600AE2F35 /* XMLReferencingEncoder.swift */,
+				21843711211E3D3600AE2F35 /* EncodingErrorExtension.swift */,
+				21843712211E3D3600AE2F35 /* XMLEncoder.swift */,
+				21843713211E3D3600AE2F35 /* XMLEncodingStorage.swift */,
+			);
+			path = Encoder;
+			sourceTree = "<group>";
+		};
+		21843722211E3E3100AE2F35 /* Sample XML */ = {
+			isa = PBXGroup;
+			children = (
+				21155C07211E892800EBF4FC /* RJI */,
+				21843729211E3E3100AE2F35 /* Books */,
+			);
+			path = "Sample XML";
+			sourceTree = "<group>";
+		};
+		21843729211E3E3100AE2F35 /* Books */ = {
+			isa = PBXGroup;
+			children = (
+				2184372A211E3E3100AE2F35 /* book.xml */,
+				2184372B211E3E3100AE2F35 /* books.xml */,
+				2184372C211E3E3100AE2F35 /* Books.swift */,
+				21843745211E411200AE2F35 /* CheckUserStatus.swift */,
+			);
+			path = Books;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +332,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2184373B211E3E3100AE2F35 /* book.xml in Resources */,
 				218436E5211E31E200AE2F35 /* LaunchScreen.storyboard in Resources */,
 				218436E2211E31E200AE2F35 /* Assets.xcassets in Resources */,
 				218436E0211E31E100AE2F35 /* Main.storyboard in Resources */,
+				21155C0B211E892800EBF4FC /* RJI_RSS_Sample.xml in Resources */,
+				2184373C211E3E3100AE2F35 /* books.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +362,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2184371F211E3D3700AE2F35 /* XMLEncodingStorage.swift in Sources */,
+				21843746211E411200AE2F35 /* CheckUserStatus.swift in Sources */,
+				2184371E211E3D3700AE2F35 /* XMLEncoder.swift in Sources */,
+				2184371C211E3D3700AE2F35 /* XMLReferencingEncoder.swift in Sources */,
 				218436DD211E31E100AE2F35 /* ViewController.swift in Sources */,
+				21843719211E3D3700AE2F35 /* XMLKeyedDecodingContainer.swift in Sources */,
+				21843721211E3D3700AE2F35 /* XMLKey.swift in Sources */,
+				2184371B211E3D3700AE2F35 /* XMLDecoder.swift in Sources */,
+				2184371A211E3D3700AE2F35 /* XMLDecodingStorage.swift in Sources */,
+				21843716211E3D3700AE2F35 /* XMLStackParser.swift in Sources */,
+				21155C0A211E892800EBF4FC /* RJI.swift in Sources */,
+				2184373D211E3E3100AE2F35 /* Books.swift in Sources */,
+				21843718211E3D3700AE2F35 /* XMLUnkeyedDecodingContainer.swift in Sources */,
+				2184371D211E3D3700AE2F35 /* EncodingErrorExtension.swift in Sources */,
 				218436DB211E31E000AE2F35 /* AppDelegate.swift in Sources */,
+				21843717211E3D3700AE2F35 /* DecodingErrorExtension.swift in Sources */,
+				21843720211E3D3700AE2F35 /* ISO8601DateFormatter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
